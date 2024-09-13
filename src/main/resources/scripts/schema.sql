@@ -2,7 +2,7 @@ CREATE TABLE my_db.books
 (
     id       INT          NOT NULL PRIMARY KEY,
     title    VARCHAR(255) NOT NULL,
-    year    INT,
+    year     INT,
     authorId INT
 );
 
