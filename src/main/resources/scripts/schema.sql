@@ -1,4 +1,4 @@
-CREATE TABLE my_db.books
+CREATE TABLE public.books
 (
     id       INT          NOT NULL PRIMARY KEY,
     title    VARCHAR(255) NOT NULL,
@@ -6,7 +6,7 @@ CREATE TABLE my_db.books
     authorId INT
 );
 
-CREATE TABLE my_db.authors
+CREATE TABLE public.authors
 (
     id   INT          NOT NULL PRIMARY KEY,
     name VARCHAR(255) NOT NULL

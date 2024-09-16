@@ -1,8 +1,8 @@
-INSERT INTO my_db.authors (id, name)
+INSERT INTO public.authors (author_id, name)
 VALUES (1, 'J. K. Rowling'),
        (2, 'J. R. R. Tolkien');
 
-INSERT INTO my_db.books (id, title, year, authorid)
+INSERT INTO public.books (book_id, title, year, author_id)
 VALUES (1, 'Philosopher''s Stone', 1997, 1),
        (2, 'Chamber of Secrets', 1998, 1),
        (3, 'Prisoner Of Azkaban', 1999, 1),

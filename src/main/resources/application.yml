@@ -2,8 +2,8 @@ spring:
   application:
     name: graphqpl
   datasource:
-    username: ${CREDENTIALS}
-    password: ${CREDENTIALS}
+    username: portal
+    password: portal
     url: jdbc:postgresql://localhost:30002/books
   jpa:
     hibernate:
@@ -12,7 +12,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
-    show-sql: false
+    show-sql: true
   graphql:
     graphiql:
       enabled: true
